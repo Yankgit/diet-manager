@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietManagerCore", "DietManagerCore.csproj", "{1C3FC451-0876-4F3D-928D-7AC03F83D2A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{085ECB1C-FCB1-4A3E-93FB-8C1F421C87FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietManagerApi", "..\DietManagerApi\DietManagerApi.csproj", "{2B2DE725-E174-4187-9CF4-080A6AE16D90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C3FC451-0876-4F3D-928D-7AC03F83D2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3FC451-0876-4F3D-928D-7AC03F83D2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3FC451-0876-4F3D-928D-7AC03F83D2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3FC451-0876-4F3D-928D-7AC03F83D2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2DE725-E174-4187-9CF4-080A6AE16D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2DE725-E174-4187-9CF4-080A6AE16D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2DE725-E174-4187-9CF4-080A6AE16D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2DE725-E174-4187-9CF4-080A6AE16D90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B2DE725-E174-4187-9CF4-080A6AE16D90} = {085ECB1C-FCB1-4A3E-93FB-8C1F421C87FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C40A268-E8F7-4EAF-9722-23CD924E81D6}
+	EndGlobalSection
+EndGlobal
