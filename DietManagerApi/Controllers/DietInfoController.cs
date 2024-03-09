@@ -23,5 +23,30 @@ namespace DietManagerApi.Controllers
 
             return Ok(response);
         }
+
+        [HttpGet("CaloricWomanDemand")]
+        public IActionResult GetCaloricWomanDemnand([FromQuery] BaseLifeStyleInfoRequest request)
+        {
+            CaloricDemand behaviour = new CaloricDemand();
+
+            double response = behaviour.WomenCaloricDemand(request);
+
+            if (response == null)
+                return NotFound();
+
+            return Ok(response);
+        }
+        [HttpGet("CaloricManDemand")]
+        public IActionResult GetCaloricManDemnand([FromQuery] BaseLifeStyleInfoRequest request)
+        {
+            CaloricDemand behaviour = new CaloricDemand();
+
+            double response = behaviour.ManCaloricDemand(request);
+
+            if (response == null)
+                return NotFound();
+
+            return Ok(response);
+        }
     }
 }

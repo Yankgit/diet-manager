@@ -12,6 +12,7 @@ public class BaseLifeStyleInfoBehaviour
             Height = request.Height,
             LifeStyle = request.LifeStyle.ToString(),
             Weight = request.Weight,
+            Age = request.Age,
         };
 
         return response;
